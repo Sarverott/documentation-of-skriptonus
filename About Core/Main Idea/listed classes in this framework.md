@@ -1,0 +1,35 @@
+
+### List of core elements
+> can be found in `About Core > Fundamental Elements`
+
+- [[Absolut Formula]]
+- [[Architectonic Structure]]
+- [[Authoritar Deity]]
+- [[Being Existance]]
+- [[Charm Procedure]]
+- [[Cult Sect]]
+- [[Curse Igniter]]
+- [[Demonic Entity]]
+- [[Divine Artifact]]
+- [[Fatum Continuum]]
+- [[Fundamental Information]]
+- [[Gateway Kirk]]
+- [[Glamour Expression]]
+- [[Grimm Monastry]]
+- [[Guarding Idol]]
+- [[Inquisition Guild]]
+- [[Liaison Stigma]]
+- [[Luminocity Matter]]
+- [[Lure Inurement]]
+- [[Makers Chapel]]
+- [[Obscurity Matter]]
+- [[Pantheon Associacion]]
+- [[Prophet Host]]
+- [[Regular Person]]
+- [[Sorcerers Tumb]]
+- [[Spiritual Preacher]]
+- [[Temple Union]]
+- [[Worship Shrine]]
+
+> for **getting started** guide check out [[README]]
+

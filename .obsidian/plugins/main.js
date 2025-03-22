@@ -33,31 +33,64 @@ var classTestList=[
     "Worship Shrine"
 ]
 
-const pathInRepoOfCode = (element)=>`core-fundations/${element.toLowerCase().split(" ").join("-")}.js`
+const pathInRepoOfCode = (element, prefix="src/core/", postfix=".js")=>`${prefix}${element.toLowerCase().split(" ").join("-")}${postfix}`
 
 const elementsForm = (element)=>`
-# ${element}
-> class of objects in [Skriptonus][skriptonus-repo] relm framework
+### About [[${pathInRepoOfCode(element, "", ".js")}]] from Skriptonus core
+> class of objects in [[Skriptonus]] relm framework ([repo of Skriptonus][skriptonus-repo])
 
 describe item here
 
-> [code of it][code-link]
+related info, etc.
 
-[code-link]: https://github.com/Sarverott/skriptonus/blob/master/${pathInRepoOfCode(element)}
+
+> for **getting started** guide check out [[README]]
+
+---
+
+> relates with repository on Github: https://github.com/Sarverott/skriptonus/blob/master/${pathInRepoOfCode(element)}
+
 [skriptonus-repo]: https://github.com/Sarverott/skriptonus#readme
 `
 
+const listElementForm = (listPrint)=>`
+### List of core elements
+> can be found in \`About Core > Fundamental Elements\`
+
+${listPrint}
+
+> for **getting started** guide check out [[README]]
+
+`
 
 for(var element of classTestList){
     const docAboutElement = path.resolve(
         import.meta.dirname,
-        "../../core-elements",
+        "../../About Core/Fundamental Elements",
         `${element}.md`
     );
+    
     console.log(docAboutElement);
-    if(!fs.existsSync(docAboutElement))fs.writeFileSync(
-        docAboutElement,
-        elementsForm(element),
-        {encoding:"utf8"}
-    );
+    
+    if(!fs.existsSync(docAboutElement)){
+        fs.writeFileSync(
+            docAboutElement,
+            elementsForm(element),
+            {encoding:"utf8"}
+        );
+    }else{
+        //fs.unlinkSync(docAboutElement);
+    }
+
 }
+
+const docListClass = path.resolve(
+    import.meta.dirname,
+    "../../About Core/Main Idea/listed classes in this framework.md"
+);
+
+fs.writeFileSync(
+    docListClass,
+    listElementForm(classTestList.map((item)=>`- [[${item}]]`).join("\n")),
+    {encoding:"utf8"}
+);
