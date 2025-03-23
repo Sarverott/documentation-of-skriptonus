@@ -1,0 +1,35 @@
+
+### List of core elements
+> can be found in `About Core > Fundamental Elements`
+
+- [[absolut-formula.js]]
+- [[architectonic-structure.js]]
+- [[authoritar-deity.js]]
+- [[being-existance.js]]
+- [[charm-procedure.js]]
+- [[cult-sect.js]]
+- [[curse-igniter.js]]
+- [[demonic-entity.js]]
+- [[divine-artifact.js]]
+- [[fatum-continuum.js]]
+- [[fundamental-information.js]]
+- [[gateway-kirk.js]]
+- [[glamour-expression.js]]
+- [[grimm-monastry.js]]
+- [[guarding-idol.js]]
+- [[inquisition-guild.js]]
+- [[liaison-stigma.js]]
+- [[luminocity-matter.js]]
+- [[lure-inurement.js]]
+- [[makers-chapel.js]]
+- [[obscurity-matter.js]]
+- [[pantheon-associacion.js]]
+- [[prophet-host.js]]
+- [[regular-person.js]]
+- [[sorcerers-tumb.js]]
+- [[spiritual-preacher.js]]
+- [[temple-union.js]]
+- [[worship-shrine.js]]
+
+> for **getting started** guide check out [[README]]
+

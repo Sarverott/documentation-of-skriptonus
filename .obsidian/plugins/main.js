@@ -44,7 +44,7 @@ describe item here
 related info, etc.
 
 
-> for **getting started** guide check out [[README]]
+> for **getting started** guide check out 
 
 ---
 
@@ -79,18 +79,19 @@ for(var element of classTestList){
             {encoding:"utf8"}
         );
     }else{
-        //fs.unlinkSync(docAboutElement);
+        fs.unlinkSync(docAboutElement);
     }
 
 }
 
 const docListClass = path.resolve(
     import.meta.dirname,
-    "../../About Core/Main Idea/listed classes in this framework.md"
+    "../../API reference/refering to actual code/index of files.md"
 );
-
+//fs.unlinkSync(docListClass);
 fs.writeFileSync(
     docListClass,
-    listElementForm(classTestList.map((item)=>`- [[${item}]]`).join("\n")),
+    listElementForm(classTestList.map((item)=>`- [[${pathInRepoOfCode(item, "", ".js")}]]`).join("\n")),
     {encoding:"utf8"}
 );
+

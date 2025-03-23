@@ -7,7 +7,7 @@ describe item here
 related info, etc.
 
 
-> for **getting started** guide check out [[README]]
+> for **getting started** guide check out 
 
 ---
 

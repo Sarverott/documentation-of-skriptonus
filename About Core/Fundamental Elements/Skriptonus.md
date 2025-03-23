@@ -1,6 +1,3 @@
-- [[about basic functionality]]
-- [[about main idea of project]]
-- [[about fundamental elements]]
 
 #### elements included in core 
 

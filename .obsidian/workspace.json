@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "e3dd69f929d40a56",
+        "id": "2129f05bdccb4748",
         "type": "tabs",
         "children": [
           {
-            "id": "1ca3d6a6b17aae1c",
+            "id": "c2aebae2fefce6b0",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {},
-              "icon": "lucide-git-fork",
-              "title": "Graph view"
+              "type": "markdown",
+              "state": {
+                "file": "About Core/presenting this concept.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "presenting this concept"
             }
           }
         ]
@@ -164,16 +168,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1ca3d6a6b17aae1c",
+  "active": "c2aebae2fefce6b0",
   "lastOpenFiles": [
-    "About Core/Skriptonus.md",
-    "About Core/Main Idea/listed classes in this framework.md",
-    "README.md",
-    "About Core/Main Idea/management of setternet by this model.md",
-    "About Core/Main Idea/concept of usage as debate medium.md",
-    "About Core/Main Idea/about main idea of project.md",
-    "About Core/Basic Functionality/about basic functionality.md",
-    "About Core/Fundamental Elements/about fundamental elements.md",
+    "About Core/introducing overview.md",
+    "About Core/presenting this concept.md",
+    "API reference/handling outside scope/defaults for BOS integration.md",
+    "API reference/handling outside scope/cases of extended usage by API and SDK.md",
+    "API reference/handling outside scope/integrations of external API and SDK.md",
+    "API reference/index of API reference.md",
+    "About Core/Getting started.md",
+    "API reference/using in practice/guide for practical use.md",
+    "About Core/Basic Functionality/functionality presentation.canvas",
+    "Related Projects/implementation in Setternet managing.md",
+    "examples/templates",
+    "examples/virtual machines",
+    "examples/containers",
+    "examples/gists",
+    "examples/repos",
+    "About Core/deep dive topics/intro to roadmap for contributors.md",
+    "About Core/Main Idea/general structure map of instance.canvas",
     "About Core/Fundamental Elements/Worship Shrine.md",
     "About Core/Fundamental Elements/Temple Union.md",
     "About Core/Fundamental Elements/Spiritual Preacher.md",
@@ -190,17 +203,11 @@
     "About Core/Fundamental Elements/Guarding Idol.md",
     "About Core/Fundamental Elements/Grimm Monastry.md",
     "About Core/Fundamental Elements/Glamour Expression.md",
-    "About Core/Fundamental Elements/Gateway Kirk.md",
-    "About Core/Fundamental Elements/Fundamental Information.md",
-    "About Core/Main Idea/Untitled",
-    "About Core/Fundamental Elements",
-    "About Core/Basic Functionality/tooling objects",
-    "About Core/Basic Functionality/structural objects",
-    "About Core/Basic Functionality/propertial actions",
-    "About Core/Basic Functionality/internal entities",
-    "About Core/Basic Functionality/external entities",
-    "About Core/Basic Functionality/eventing actions",
-    "About Core/Basic Functionality/behavioral actions",
-    "About Core/Basic Functionality"
+    "API reference/refering to actual code",
+    "API reference/handling outside scope",
+    "API reference/external handling",
+    "API reference/laws of syntaxing",
+    "API reference/refering to code",
+    "About Core/deep dive topics/skeleton of inheritance class genealogy.canvas"
   ]
 }

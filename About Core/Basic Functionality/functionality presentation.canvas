@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"5d7703d7fc90f756","x":-480,"y":-500,"width":400,"height":400,"type":"file","file":"About Core/Basic Functionality/about basic functionality.md"},
+		{"id":"de4de67d802ebabd","x":-480,"y":0,"width":400,"height":400,"type":"file","file":"About Core/Basic Functionality/about Skriptonus.md"},
+		{"id":"e4a0cc7ecc770e0d","x":500,"y":-520,"width":400,"height":400,"type":"file","file":"About Core/Basic Functionality/about main idea of project.md"},
+		{"id":"2b53fbad37c0d970","x":500,"y":0,"width":400,"height":400,"type":"file","file":"About Core/Basic Functionality/about fundamental elements.md"}
+	],
+	"edges":[]
+}
