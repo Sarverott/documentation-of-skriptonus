@@ -1,0 +1,29 @@
+{
+  "name": "documentation-of-skriptonus",
+  "version": "1.0.0",
+  "description": "all about Skriptonus in separed documentation repository",
+  "main": "index.js",
+  "directories": {
+    "doc": ".",
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "obsidian --help",
+    "": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sarverott/documentation-of-skriptonus.git"
+  },
+  "keywords": [
+    "obsidian",
+    "skriptonus",
+    "setternet"
+  ],
+  "author": "Sett Sarverott",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/Sarverott/documentation-of-skriptonus/issues"
+  },
+  "homepage": "https://github.com/Sarverott/documentation-of-skriptonus#readme"
+}

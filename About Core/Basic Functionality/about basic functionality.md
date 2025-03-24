@@ -1,3 +1,3 @@
 
-- [[skeleton of inheritance class genealogy.canvas|skeleton of inheritance class genealogy]]
+- [[prospect of structural idea and class genealogy.canvas|skeleton of inheritance class genealogy]]
 - 
